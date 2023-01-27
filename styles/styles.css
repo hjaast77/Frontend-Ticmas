@@ -1,0 +1,418 @@
+html {
+  background-color: rgb(215 215 215);
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.cv-container {
+  width: 45rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin: 3rem auto;
+}
+
+.titulo {
+  display: none;
+}
+
+#cv-izq {
+  background-color: rgb(34 33 38);
+  color: floralwhite;
+}
+
+#img-perfil img {
+  width: 200px;
+}
+
+.items ul {
+  list-style: none;
+  margin: 0 1rem 0 0;
+  padding: 0;
+}
+
+.nombre_small {
+  display: none;
+}
+
+.items h2 {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+  margin: 1rem 0 0 1rem;
+  border-bottom: 1.5px solid rgb(255 202 0);
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.items h3 {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  padding-bottom: 0.5rem;
+  margin: 1rem 0 0 2rem;
+  font-weight: 500;
+}
+
+.items p {
+  font-size: 0.6rem;
+  padding-bottom: 0.3rem;
+  margin: 0 0 0 2rem;
+  font-weight: 400;
+}
+
+.items p span {
+  font-weight: 600;
+}
+
+.contacto {
+  margin-top: 1rem;
+}
+
+.contacto ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 3rem 0;
+}
+
+.contacto li {
+  margin: 0.3rem 0;
+}
+
+.contacto .encabezado {
+  display: flex;
+  align-items: center;
+  background-color: rgb(42 43 47);
+}
+
+.contacto .encabezado .amarillo {
+  height: 1rem;
+  width: 1.4rem;
+  background-color: rgb(255 202 0);
+}
+
+.contacto p {
+  margin: 0 0 0 2rem;
+  font-size: 0.6rem;
+
+  font-weight: 400;
+}
+
+.contacto .encabezado p {
+  margin: 0 0 0 0.6rem;
+  font-size: 0.6rem;
+  font-weight: 500;
+}
+
+.contacto a {
+  text-decoration: none;
+  margin: 0;
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: floralwhite;
+  padding: 0;
+}
+
+#cv-der {
+  background-color: rgb(235, 235, 235);
+  position: relative;
+}
+
+#boton-dwnld{
+  position: absolute;
+  top: .5rem;
+  right: 0;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+#nombre p {
+  background-color: rgb(255 202 0);
+  margin: 2rem 0 1rem 0;
+  padding: 1.5rem 1.5rem;
+}
+
+#cv-der #nombre {
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+}
+
+#cv-der #nombre #nom {
+  font-weight: 800;
+}
+
+#cv-der #nombre #nom-desc {
+  letter-spacing: 0;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: rgb(75, 75, 75);
+  letter-spacing: 0.2rem;
+}
+
+.items-cuerpo {
+  margin: 1.5rem 0 1rem 1.5rem;
+}
+
+#cuerpo {
+  margin: 0 2.3rem 0 0;
+}
+#cuerpo h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  margin: 0;
+  border-bottom: 1.5px solid rgb(34 33 38);
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.items-cuerpo .about {
+  font-size: 0.8rem;
+}
+
+.items-cuerpo ul {
+  font-size: 0.8rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-exp {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1px;
+}
+
+.experiencia-desc h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.experiencia-desc h4 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0.3rem 0;
+}
+
+.logros {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.items-cuerpo #experiencia-container .eperiencia-años {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.conocimientos ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  margin-top: 1rem;
+}
+
+.conocimientos ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.02rem 0;
+}
+
+.barra {
+  width: 80%;
+  height: 0.3rem;
+  background-color: rgb(204, 204, 204);
+  position: relative;
+  border-radius: 12px;
+}
+
+.progreso {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: rgb(52, 52, 52);
+  border-radius: 12px;
+}
+
+.html-bar {
+  width: 50%;
+}
+
+.js-bar {
+  width: 30%;
+}
+
+.css-bar {
+  width: 50%;
+}
+
+.ps-bar {
+  width: 70%;
+}
+
+.ilus-bar {
+  width: 40%;
+}
+
+.java-bar {
+  width: 55%;
+}
+
+.conocimientos-titulo {
+  padding-right: 1.5rem;
+  margin: 0.7rem 0;
+  font-weight: 500;
+}
+
+.scale-cv .items h2{
+  border-color: rgb(219, 219, 219);
+}
+
+.scale-cv #nombre p{
+  background-color: rgb(219, 219, 219);
+}
+.scale-cv .items h2 {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.scale-cv .items h3 {
+  font-size: .8rem;
+}
+
+.scale-cv .items p{
+  font-size:  .8rem;
+}
+
+.scale-cv .contacto .encabezado,
+.scale-cv .contacto a{
+  font-size: .75rem;
+  margin: .3rem 0;
+}
+
+.scale-cv .contacto .encabezado p{
+  font-size: .75rem;
+  margin-left: .5rem;
+}
+
+.scale-cv .contacto p{
+  margin-left: 2rem;
+  font-size: .75rem;
+
+}
+
+.scale-cv #boton-dwnld {
+  display: none;
+}
+
+.scale-cv #cv-der{
+  background-color: white;
+}
+
+.scale-cv .items-cuerpo{
+  margin-top: 2rem;
+}
+
+.scale-cv .grid-exp{
+  margin-top: 1rem;
+}
+
+.scale-cv .experiencia-desc h4{
+  margin: .5rem 0 ;
+}
+
+.scale-cv #cono{
+  margin-bottom: .6rem;
+}
+
+.scale-cv #cuerpo h2{
+  font-size: 1.2rem;
+}
+
+.scale-cv .items-cuerpo .about {
+  font-size: 1rem;
+}
+
+.scale-cv .items-cuerpo #experiencia-container .eperiencia-años {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.scale-cv .experiencia-desc h3 {
+  font-size: 1rem;
+}
+
+.scale-cv .experiencia-desc h4 {
+  font-size: .9rem;
+}
+
+.scale-cv .logros {
+  font-size: .8rem;
+}
+
+.scale-cv .contacto .encabezado .amarillo{
+  background-color: rgb(219, 219, 219);;
+}
+
+@media (max-width: 768px) {
+  .cv-container {
+    grid-template-columns: 1fr;
+    width: 20rem;
+  }
+  .grid-exp {
+    grid-template-columns: 1fr;
+  }
+  .conocimientos ul {
+    grid-template-columns: 1fr;
+  }
+  .experiencia-desc h3 {
+    margin-top: 0;
+  }
+
+  #boton-dwnld{ display: none;
+  }
+
+  #nombre p {
+    margin-top: 0;
+  }
+
+  #nombre {
+    display: none;
+  }
+
+  .nombre_small {
+    display: block;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 0;
+    color: rgb(34 33 38);
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    background-color: rgb(255 202 0);
+    padding: 1.4rem 2rem;
+  }
+
+  #img-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .nombre2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: -1px;
+  }
+
+  .titulo {
+    border: 1px solid rgb(255 202 0);
+    padding: 0.6rem 1.1rem;
+    margin: 0;
+    display: block;
+    font-size: 0.7rem;
+  }
+}
