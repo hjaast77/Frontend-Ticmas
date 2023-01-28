@@ -23,9 +23,12 @@ function generarCV(){
     html2pdf(areaCV, opt)
 }
 
+
+
 let botonCv = document.getElementById("boton-dwnld");
 botonCv.addEventListener('click', () =>{
   scaleCV()
   generarCV()
   setTimeout(removeScaleCV, 5000)
 })
+
