@@ -1,10 +1,10 @@
-//modifica los estilos para que el CV ocupe una hoja a4
+//modifica los estilos para que el CV ocupe una hoja a4 y ponga en B/N el CV
 function scaleCV(){
     document.body.classList.add("scale-cv")
 }
 
 /* // vuelve a poner en default los estilos. se lo invoca con
- con un timeout de 5sec luego de generar el pdf  */
+ con un timeout de 5sec luego de generar el pdf  mediante el boton de download*/
 function removeScaleCV(){
     document.body.classList.remove("scale-cv")
 }
@@ -19,11 +19,10 @@ let opt = {
     jsPDF:        { format: 'a4', orientation: 'portrait' }
   };
 
+
 function generarCV(){
     html2pdf(areaCV, opt)
 }
-
-
 
 let botonCv = document.getElementById("boton-dwnld");
 botonCv.addEventListener('click', () =>{
